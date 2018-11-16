@@ -6,8 +6,8 @@
 float min(float floatArray[], unsigned int arrLen){
     float lowestFigure = floatArray[0];
 
-    for(int i = 0; i <= (arrLen -1); i++){
-        if(floatArray[1] < lowestFigure) lowestFigure = floatArray[i];
+    for(int i = 0; i < (arrLen); i++){
+        if(floatArray[i] < lowestFigure) lowestFigure = floatArray[i];
     }
     return lowestFigure;
 }
@@ -80,3 +80,4 @@ int main(){
     //Ende der Funktion
     return EXIT_SUCCESS;
 }
+
