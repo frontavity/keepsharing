@@ -8,9 +8,8 @@ int main(){
 
 //Eingeben der Aufgabenstellung
 	printf("Bitte Aufgabe stellen: Zahl{+,-,*,/}Zahl \nBeispiel: 1+1 \n");
-	scanf("%.3lf", &firstFigure);
-	scanf("%c", &operation);
-	scanf("%.3lf", &secondFigure);
+	scanf("%lf %c %lf", &firstFigure,&operation,&secondFigure);
+
 
 	switch(operation){
 		case '+': result = firstFigure+secondFigure; break;	
